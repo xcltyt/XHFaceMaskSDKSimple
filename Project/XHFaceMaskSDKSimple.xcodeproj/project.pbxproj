@@ -21,6 +21,9 @@
 		ABC192A0187B007000AAC7DA /* XHFaceMaskSDKSimpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC1929F187B007000AAC7DA /* XHFaceMaskSDKSimpleTests.m */; };
 		ABC192AA187B008800AAC7DA /* XHFaceMaskSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192A9187B008800AAC7DA /* XHFaceMaskSDK.framework */; };
 		ABC192AD187B008F00AAC7DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC192AC187B008F00AAC7DA /* ViewController.m */; };
+		ABC192AF187B128500AAC7DA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192AE187B128500AAC7DA /* AVFoundation.framework */; };
+		ABC192B1187B128B00AAC7DA /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192B0187B128B00AAC7DA /* CoreImage.framework */; };
+		ABC192B3187B129000AAC7DA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192B2187B129000AAC7DA /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		ABC192A9187B008800AAC7DA /* XHFaceMaskSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XHFaceMaskSDK.framework; sourceTree = "<group>"; };
 		ABC192AB187B008F00AAC7DA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ABC192AC187B008F00AAC7DA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABC192AE187B128500AAC7DA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ABC192B0187B128B00AAC7DA /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		ABC192B2187B129000AAC7DA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC192B3187B129000AAC7DA /* CoreMedia.framework in Frameworks */,
+				ABC192B1187B128B00AAC7DA /* CoreImage.framework in Frameworks */,
+				ABC192AF187B128500AAC7DA /* AVFoundation.framework in Frameworks */,
 				ABC192AA187B008800AAC7DA /* XHFaceMaskSDK.framework in Frameworks */,
 				ABC1927D187B006F00AAC7DA /* CoreGraphics.framework in Frameworks */,
 				ABC1927F187B006F00AAC7DA /* UIKit.framework in Frameworks */,
@@ -102,6 +111,9 @@
 		ABC19279187B006F00AAC7DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABC192B2187B129000AAC7DA /* CoreMedia.framework */,
+				ABC192B0187B128B00AAC7DA /* CoreImage.framework */,
+				ABC192AE187B128500AAC7DA /* AVFoundation.framework */,
 				ABC1927A187B006F00AAC7DA /* Foundation.framework */,
 				ABC1927C187B006F00AAC7DA /* CoreGraphics.framework */,
 				ABC1927E187B006F00AAC7DA /* UIKit.framework */,
@@ -461,6 +473,7 @@
 				ABC192A5187B007000AAC7DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABC192A6187B007000AAC7DA /* Build configuration list for PBXNativeTarget "XHFaceMaskSDKSimpleTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +482,7 @@
 				ABC192A8187B007000AAC7DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
