@@ -25,6 +25,7 @@
 		ABC192B3187B129000AAC7DA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192B2187B129000AAC7DA /* CoreMedia.framework */; };
 		ABC192B5187B12DA00AAC7DA /* XHFaceMaskSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192B4187B12DA00AAC7DA /* XHFaceMaskSDK.framework */; };
 		ABC192B7187B131200AAC7DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192B6187B131200AAC7DA /* QuartzCore.framework */; };
+		ABC192B9187B141E00AAC7DA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192B8187B141E00AAC7DA /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		ABC192B2187B129000AAC7DA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		ABC192B4187B12DA00AAC7DA /* XHFaceMaskSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XHFaceMaskSDK.framework; sourceTree = "<group>"; };
 		ABC192B6187B131200AAC7DA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ABC192B8187B141E00AAC7DA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC192B9187B141E00AAC7DA /* CoreVideo.framework in Frameworks */,
 				ABC192B7187B131200AAC7DA /* QuartzCore.framework in Frameworks */,
 				ABC192B3187B129000AAC7DA /* CoreMedia.framework in Frameworks */,
 				ABC192B1187B128B00AAC7DA /* CoreImage.framework in Frameworks */,
@@ -114,6 +117,7 @@
 		ABC19279187B006F00AAC7DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABC192B8187B141E00AAC7DA /* CoreVideo.framework */,
 				ABC192B6187B131200AAC7DA /* QuartzCore.framework */,
 				ABC192B2187B129000AAC7DA /* CoreMedia.framework */,
 				ABC192B0187B128B00AAC7DA /* CoreImage.framework */,
