@@ -8,6 +8,8 @@ XHFaceMaskSDKSimple 一款面具佩戴的组件，具有对人脸检测，眼睛
 3、有公开的api，回调人脸模型    
 4、可自定义设置佩戴面具的素材    
 
+![image](https://github.com/JackTeam/XHFaceMaskSDKSimple/raw/master/Screenshots/XHFaceMaskSDKSimple.png)   
+
 ## 开源模式
 
 1、这里已经是SDK模式了     
