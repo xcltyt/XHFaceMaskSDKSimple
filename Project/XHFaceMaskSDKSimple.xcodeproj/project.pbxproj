@@ -19,11 +19,12 @@
 		ABC19296187B007000AAC7DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC1927E187B006F00AAC7DA /* UIKit.framework */; };
 		ABC1929E187B007000AAC7DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC1929C187B007000AAC7DA /* InfoPlist.strings */; };
 		ABC192A0187B007000AAC7DA /* XHFaceMaskSDKSimpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC1929F187B007000AAC7DA /* XHFaceMaskSDKSimpleTests.m */; };
-		ABC192AA187B008800AAC7DA /* XHFaceMaskSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192A9187B008800AAC7DA /* XHFaceMaskSDK.framework */; };
 		ABC192AD187B008F00AAC7DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC192AC187B008F00AAC7DA /* ViewController.m */; };
 		ABC192AF187B128500AAC7DA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192AE187B128500AAC7DA /* AVFoundation.framework */; };
 		ABC192B1187B128B00AAC7DA /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192B0187B128B00AAC7DA /* CoreImage.framework */; };
 		ABC192B3187B129000AAC7DA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192B2187B129000AAC7DA /* CoreMedia.framework */; };
+		ABC192B5187B12DA00AAC7DA /* XHFaceMaskSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192B4187B12DA00AAC7DA /* XHFaceMaskSDK.framework */; };
+		ABC192B7187B131200AAC7DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC192B6187B131200AAC7DA /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +54,13 @@
 		ABC1929B187B007000AAC7DA /* XHFaceMaskSDKSimpleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XHFaceMaskSDKSimpleTests-Info.plist"; sourceTree = "<group>"; };
 		ABC1929D187B007000AAC7DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABC1929F187B007000AAC7DA /* XHFaceMaskSDKSimpleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHFaceMaskSDKSimpleTests.m; sourceTree = "<group>"; };
-		ABC192A9187B008800AAC7DA /* XHFaceMaskSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XHFaceMaskSDK.framework; sourceTree = "<group>"; };
 		ABC192AB187B008F00AAC7DA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ABC192AC187B008F00AAC7DA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ABC192AE187B128500AAC7DA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		ABC192B0187B128B00AAC7DA /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		ABC192B2187B129000AAC7DA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		ABC192B4187B12DA00AAC7DA /* XHFaceMaskSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XHFaceMaskSDK.framework; sourceTree = "<group>"; };
+		ABC192B6187B131200AAC7DA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC192B7187B131200AAC7DA /* QuartzCore.framework in Frameworks */,
 				ABC192B3187B129000AAC7DA /* CoreMedia.framework in Frameworks */,
 				ABC192B1187B128B00AAC7DA /* CoreImage.framework in Frameworks */,
 				ABC192AF187B128500AAC7DA /* AVFoundation.framework in Frameworks */,
-				ABC192AA187B008800AAC7DA /* XHFaceMaskSDK.framework in Frameworks */,
 				ABC1927D187B006F00AAC7DA /* CoreGraphics.framework in Frameworks */,
+				ABC192B5187B12DA00AAC7DA /* XHFaceMaskSDK.framework in Frameworks */,
 				ABC1927F187B006F00AAC7DA /* UIKit.framework in Frameworks */,
 				ABC1927B187B006F00AAC7DA /* Foundation.framework in Frameworks */,
 			);
@@ -111,6 +114,7 @@
 		ABC19279187B006F00AAC7DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABC192B6187B131200AAC7DA /* QuartzCore.framework */,
 				ABC192B2187B129000AAC7DA /* CoreMedia.framework */,
 				ABC192B0187B128B00AAC7DA /* CoreImage.framework */,
 				ABC192AE187B128500AAC7DA /* AVFoundation.framework */,
@@ -125,7 +129,7 @@
 		ABC19280187B006F00AAC7DA /* XHFaceMaskSDKSimple */ = {
 			isa = PBXGroup;
 			children = (
-				ABC192A9187B008800AAC7DA /* XHFaceMaskSDK.framework */,
+				ABC192B4187B12DA00AAC7DA /* XHFaceMaskSDK.framework */,
 				ABC19289187B006F00AAC7DA /* AppDelegate.h */,
 				ABC1928A187B006F00AAC7DA /* AppDelegate.m */,
 				ABC192AB187B008F00AAC7DA /* ViewController.h */,
@@ -386,6 +390,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/JackMacbook/JackTeamDeveloper/准备开放的开源库组件/XHFaceMaskSDKSimple/XHFaceMaskSDKSimple",
+					/Users/JackMacbook/JackTeamDeveloper/JackTeamGithub/XHFaceMaskSDKSimple/Project/XHFaceMaskSDKSimple,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHFaceMaskSDKSimple/XHFaceMaskSDKSimple-Prefix.pch";
@@ -403,6 +408,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/JackMacbook/JackTeamDeveloper/准备开放的开源库组件/XHFaceMaskSDKSimple/XHFaceMaskSDKSimple",
+					/Users/JackMacbook/JackTeamDeveloper/JackTeamGithub/XHFaceMaskSDKSimple/Project/XHFaceMaskSDKSimple,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHFaceMaskSDKSimple/XHFaceMaskSDKSimple-Prefix.pch";
